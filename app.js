@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   // Sending This is the home page! in the page
   res
     .status(200)
-    .send(`This is the home page and running on tình tính tang`);
+    .send(`This is the home page and running on tình tính tang tang tính tình`);
 });
 
 // Listening to the port 
