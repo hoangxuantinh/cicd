@@ -8,12 +8,12 @@ app.get("/", (req, res) => {
   // Sending This is the home page! in the page
   res
     .status(200)
-    .send(`This is the home page and running on ${process.env.PORT}`);
+    .send(`This is the home page and running on tình bú liếm`);
 });
 
 // Listening to the port 
-let PORT = process.env.PORT ? process.env.PORT : 8000;
+let PORT = process.env.PORT ? process.env.PORT : 3000;
 console.log(PORT);
 app.listen(PORT, () => {
-  console.log(`Server is running...123`);
+  console.log(`Server is running...`);
 });
